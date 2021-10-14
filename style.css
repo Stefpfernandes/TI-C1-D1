@@ -1,0 +1,120 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#header-top {
+    height: 30px;
+    padding: 10px;
+    background: #212121;
+}
+
+#header-top#container-header {
+    width: 80%;
+    height: auto;
+    padding: 5px;
+    margin: 0 auto;
+}
+
+header #logo {
+    font-weight: bold;
+    margin-left: 12%;
+    margin-top: 7px;
+    color: white;
+}
+
+#container-header ul {
+    list-style: none;
+    margin-bottom: -30px;
+    margin-left: 68%;
+}
+
+#container-header ul li a {
+    color: white;
+    float: left;
+    font-size: 17px;
+    text-decoration: none;
+    padding: 10px 30px;
+    display: flex;
+    margin-left: 10px;
+    transition: all ease 0.1s;
+}
+
+#container-header a:hover {
+    background: red;
+    cursor: pointer;
+}
+
+body#home #container-header a#home{
+    background: #f9A825;
+    border-radius: 20px;
+}
+
+#box-main {
+    width: 62%;
+    margin: 260px auto;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pontilhado {
+    width: 60%;
+
+}
+
+.pontilhado p {
+    border-right: 1px dashed black;
+    width: 70%;
+    background-color: #FAFAFA;
+    justify-content: center;
+    align-items: center;
+    padding: 70px;
+}
+
+.cadastro {
+    width: 60%;
+}
+
+.cadastro p {
+    margin: 0 0 40px 90px;
+    font-weight: bolder;
+}
+
+.cadastro .email {
+    width: 60%;
+    height: 30px;
+    outline: none;
+    border-radius: 5px;
+    font-size: 20px;
+    border: 1px solid black;
+    float: left;
+    padding: 10px;
+    margin: 0 0 30px 90px;
+}
+
+.cadastro .botao {
+    border: 0;
+    color: white;
+    background-color: #f9A825;
+    border-radius: 6px;
+    font-size: 17px;
+    padding: 10px 30px;
+    cursor: pointer;
+    margin: 15px 190px 0 90px;
+}
+
+footer #ti {
+    background: #212121;
+    width: 98.4%;
+    height: 65px;
+    padding: 15px;
+    bottom: 0;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+    font-weight: bold;
+    position: fixed;
+}
